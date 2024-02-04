@@ -1,0 +1,13 @@
+/.gitattributes
+/Blessings.txt
+/giftsRank.py
+/LICENSE
+/liveMan.py
+/main.py
+/postMsg.py
+/protobuf
+/README.MD
+/receve.py
+/requirements.txt
+/robot
+/__pycache__
