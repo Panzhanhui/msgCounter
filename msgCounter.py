@@ -50,7 +50,7 @@ def heart_beat():
     threading.Timer(1, heart_beat).start()
 
 def on_esc_pressed(event):
-        keyboard.wait()
+        sys.exit()
 
 
 
