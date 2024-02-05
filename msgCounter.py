@@ -15,7 +15,7 @@ def readMsg():
     if not os.path.exists(b):
         with open(b, 'w'):
             pass
-    with open("Blessings.txt", 'r', encoding='utf-8') as file:
+    with open(b, 'r', encoding='utf-8') as file:
         lines = file.readlines()  # 按行读取文件内容
         if not lines:
             print('empty>>>>>>fill')
