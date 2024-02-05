@@ -11,7 +11,7 @@ def readMsg():
     global queue
     queue = []
 
-    b = 'Blessings.txt'
+    b = 'Blessings2.txt'
     if not os.path.exists(b):
         with open(b, 'w'):
             pass
@@ -47,7 +47,7 @@ def heart_beat():
     sendMsg()
     keyboard.on_press_key("esc", on_esc_pressed)
     # 每隔3秒执行一次
-    threading.Timer(1, heart_beat).start()
+    threading.Timer(1*30, heart_beat).start()
 
 def on_esc_pressed(event):
         sys.exit()
